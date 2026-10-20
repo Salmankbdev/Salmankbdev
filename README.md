@@ -60,7 +60,7 @@ I also build client products with **[Nexora Tech](https://nexoratech.solutions)*
 - ↩️ **Undo anything** — the full operation history survives restarts
 - 🔍 **Understand your files** — SHA-256 duplicate finder, large-file finder, storage analytics, custom rules
 - 🧹 **Do more in one place** — batch rename, archive extraction, cache cleanup
-- 🛡️ **Private by design** — 100% offline, local SQLite storage, no account, no telemetry
+- 🛡️ **Privacy by design** — 100% offline, local SQLite storage, no account, no telemetry
 - 🧪 **Tested and shipped** — Flutter + Dart, v1.7.0, MIT licensed, released through GitHub Actions
 
 <div align="center">
@@ -68,23 +68,20 @@ I also build client products with **[Nexora Tech](https://nexoratech.solutions)*
   <a href="https://github.com/Salmankbdev/file-organizer-pro/releases/latest"><img src="https://img.shields.io/badge/Download_v1.7.0-6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="Download the latest release" /></a>
 </div>
 
-## 🚀 More of what I've built
+## 🚀 More public repositories
 
-| Project | Stack | What it does |
+| Repository | Stack | What it does |
 | :-- | :-- | :-- |
-| **☀️ Aerox Invert**<br/><sub>`private`</sub> | `TypeScript` `USB-HID` | Real-time desktop monitor for an Inverex Aerox 1.2 kW MPPT solar inverter, talking Voltronic PI30 over Cypress USB-HID. |
-| **🧵 Tailor Shop Management**<br/><sub>`private`</sub> | `JavaScript` | A management app for the day-to-day running of a tailoring business. |
-| **🗺️ Treasure Quest Adventure**<br/><sub>`private`</sub> | `Lua` | An adventure game written in Lua. |
-| **🌐 Nexora Tech**<br/><sub>`studio`</sub> | `Web` `Apps` | Websites, mobile apps, and custom business software for clients in Pakistan and beyond. |
+| **[Aerox Invert](https://github.com/Salmankbdev/aerox-invert)** | `TypeScript` `Electron` `USB-HID` | Desktop monitor for an Inverex Aerox 1.2 kW MPPT solar inverter, reading Voltronic PI30 over Cypress USB-HID. |
+| **[Treasure Quest Adventure](https://github.com/Salmankbdev/treasure-quest-adventure)** | `Lua` `Rojo` | A Roblox RPG with seven islands, character classes, weapon upgrades, bosses, and a full HUD. |
+| **[KeyboardSplitterNext](https://github.com/Salmankbdev/KeyboardSplitterNext)** | `Rust` `TypeScript` | Turns multiple physical keyboards into independent virtual Xbox 360 controllers on Windows.<br/><sub>Fork of E4crypt3d/KeyboardSplitterNext</sub> |
 
 ## 📊 GitHub at a glance
 
 <div align="center">
-  <img height="190" src="https://github-readme-stats.vercel.app/api?username=Salmankbdev&show_icons=true&hide_border=true&hide_rank=true&custom_title=GitHub%20Stats&bg_color=00000000&title_color=818CF8&icon_color=22D3EE&text_color=94A3B8&include_all_commits=true&count_private=true" alt="Salman's GitHub stats" />
+  <img height="190" src="https://github-readme-stats.vercel.app/api?username=Salmankbdev&show_icons=true&hide_border=true&hide_rank=true&custom_title=GitHub%20Stats&bg_color=00000000&title_color=818CF8&icon_color=22D3EE&text_color=94A3B8&include_all_commits=true" alt="Salman's GitHub stats" />
   <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Salmankbdev&layout=compact&hide_border=true&bg_color=00000000&title_color=818CF8&text_color=94A3B8&langs_count=8" alt="Top languages" />
 </div>
-
-<p align="center"><sub>Public repositories only — most client work is private.</sub></p>
 
 ## 🤝 Let's build something
 
