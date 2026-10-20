@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Salman — full-stack developer</title>
+  <desc id="bannerDesc">Dark banner with the name Salman, full-stack developer from Turbat, Balochistan, Pakistan, and a terminal window showing his stack.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070E"/>
+      <stop offset="0.55" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#060B16"/>
+    </linearGradient>
+
+    <linearGradient id="nameFill" x1="64" y1="120" x2="430" y2="185" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#C7D2FE"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#6366F1"/>
+      <stop offset="0.7" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="terminalEdge" x1="700" y1="74" x2="1128" y2="266" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#1E293B" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(170 30) rotate(55) scale(400 330)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1060 340) rotate(-125) scale(430 350)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0891B2" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#94A3B8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'Cascadia Code', 'SF Mono', Consolas, 'Liberation Mono', monospace; }
+      .caret { animation: blink 1.15s steps(1) infinite; }
+      .float { animation: float 8s ease-in-out infinite; }
+      .pulse { animation: pulse 5s ease-in-out infinite; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <ellipse cx="170" cy="30" rx="400" ry="330" fill="url(#glowA)"/>
+  <ellipse cx="1060" cy="340" rx="430" ry="350" fill="url(#glowB)"/>
+
+  <!-- decorative frame -->
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="0" stroke="#94A3B8" stroke-opacity="0.1"/>
+  <path d="M0 339.5H1200" stroke="url(#accentLine)" stroke-width="1"/>
+
+  <!-- code brackets -->
+  <text x="618" y="60" class="mono" font-size="22" fill="#6366F1" fill-opacity="0.28">&lt;/&gt;</text>
+  <text x="612" y="326" class="mono" font-size="22" fill="#22D3EE" fill-opacity="0.18">&lt;/&gt;</text>
+
+  <!-- left: intro -->
+  <text x="64" y="92" class="mono" font-size="13" letter-spacing="3.6" fill="#818CF8">// HELLO, I'M</text>
+
+  <text x="60" y="178" class="sans" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#nameFill)">Salman</text>
+
+  <text x="64" y="222" class="sans" font-size="18" fill="#CBD5E1">Full-stack developer · Flutter · Rust · TypeScript</text>
+
+  <!-- location -->
+  <g transform="translate(65 249)">
+    <path d="M7 0C3.13 0 0 3.13 0 7c0 5.25 7 12 7 12s7-6.75 7-12c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 0 1 7 4.5a2.5 2.5 0 0 1 0 5z" fill="#64748B"/>
+    <text x="22" y="12" class="sans" font-size="14" fill="#94A3B8">Turbat, Balochistan · Pakistan</text>
+  </g>
+
+  <!-- studio -->
+  <g transform="translate(65 285)">
+    <rect x="0" y="0" width="8" height="8" rx="2" fill="#22D3EE"/>
+    <text x="18" y="9" class="sans" font-size="14" fill="#64748B">Building at <tspan fill="#A5B4FC" font-weight="600">Nexora Tech</tspan> · <tspan class="mono" font-size="12" fill="#475569">@salmankbdev</tspan></text>
+  </g>
+
+  <!-- right: terminal -->
+  <g class="float">
+    <rect x="700" y="74" width="428" height="192" rx="16" fill="#080D18" fill-opacity="0.92"/>
+    <rect x="700.5" y="74.5" width="427" height="191" rx="15.5" stroke="url(#terminalEdge)"/>
+
+    <!-- header -->
+    <path d="M700 90a16 16 0 0 1 16-16h396a16 16 0 0 1 16 16v22H700V90z" fill="#0D1526"/>
+    <line x1="700" y1="112" x2="1128" y2="112" stroke="#1E293B"/>
+    <circle cx="724" cy="93" r="4.5" fill="#F87171" fill-opacity="0.85"/>
+    <circle cx="742" cy="93" r="4.5" fill="#FBBF24" fill-opacity="0.85"/>
+    <circle cx="760" cy="93" r="4.5" fill="#34D399" fill-opacity="0.85"/>
+    <text x="914" y="97" class="mono" font-size="10.5" fill="#475569">salman@nexora — zsh</text>
+
+    <!-- console lines -->
+    <g class="mono" font-size="13">
+      <text x="724" y="136" fill="#34D399">$<tspan fill="#E2E8F0" dx="7">whoami</tspan></text>
+      <text x="724" y="158" fill="#818CF8">&gt;<tspan fill="#94A3B8" dx="7">salman — full-stack developer</tspan></text>
+      <text x="724" y="180" fill="#34D399">$<tspan fill="#E2E8F0" dx="7">cat stack.txt</tspan></text>
+      <text x="724" y="202" fill="#818CF8">&gt;<tspan fill="#94A3B8" dx="7">flutter · rust · typescript</tspan></text>
+      <text x="724" y="224" fill="#34D399">$<tspan fill="#E2E8F0" dx="7">git status</tspan></text>
+      <text x="724" y="246" fill="#818CF8">&gt;<tspan fill="#34D399" dx="7">●</tspan><tspan fill="#94A3B8" dx="7">shipping, learning, repeating</tspan><tspan class="caret" fill="#A5B4FC" dx="8">▍</tspan></text>
+    </g>
+  </g>
+
+  <!-- accent nodes -->
+  <circle class="pulse" cx="622" cy="286" r="3" fill="#22D3EE"/>
+  <circle class="pulse" cx="646" cy="286" r="3" fill="#6366F1" fill-opacity="0.6"/>
+  <circle class="pulse" cx="670" cy="286" r="3" fill="#6366F1" fill-opacity="0.3"/>
+</svg>

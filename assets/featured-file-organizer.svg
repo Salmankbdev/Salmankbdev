@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none" role="img" aria-labelledby="coverTitle coverDesc">
+  <title id="coverTitle">File Organizer Pro</title>
+  <desc id="coverDesc">Cover art for File Organizer Pro: scan, organize and undo file moves on Windows, fully offline.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A14"/>
+      <stop offset="0.55" stop-color="#0A1120"/>
+      <stop offset="1" stop-color="#060B16"/>
+    </linearGradient>
+
+    <linearGradient id="titleFill" x1="64" y1="105" x2="480" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.65" stop-color="#E0E7FF"/>
+      <stop offset="1" stop-color="#A5B4FC"/>
+    </linearGradient>
+
+    <linearGradient id="panelEdge" x1="690" y1="80" x2="1140" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#1E293B" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(120 20) rotate(50) scale(420 340)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1090 410) rotate(-130) scale(400 330)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0891B2" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#94A3B8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'Cascadia Code', 'SF Mono', Consolas, 'Liberation Mono', monospace; }
+      .glow { animation: glow 5s ease-in-out infinite; }
+      @keyframes glow { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <ellipse cx="120" cy="20" rx="420" ry="340" fill="url(#glowA)"/>
+  <ellipse cx="1090" cy="410" rx="400" ry="330" fill="url(#glowB)"/>
+
+  <!-- left: title -->
+  <text x="64" y="82" class="mono" font-size="12" letter-spacing="3.4" fill="#818CF8">FEATURED PROJECT</text>
+
+  <text x="60" y="148" class="sans" font-size="54" font-weight="800" letter-spacing="-1.5" fill="url(#titleFill)">File Organizer Pro</text>
+
+  <text x="64" y="192" class="sans" font-size="19" fill="#CBD5E1">Scan → organize → undo.</text>
+  <text x="64" y="220" class="sans" font-size="17" fill="#94A3B8">A calmer desktop, one folder at a time.</text>
+
+  <!-- chips -->
+  <g class="sans" font-size="12.5" font-weight="600">
+    <rect x="64" y="250" width="128" height="32" rx="16" fill="#0D1526" stroke="#1E293B"/>
+    <text x="128" y="270" fill="#CBD5E1" text-anchor="middle">Windows 10/11</text>
+
+    <rect x="202" y="250" width="120" height="32" rx="16" fill="#0D1526" stroke="#1E293B"/>
+    <text x="262" y="270" fill="#CBD5E1" text-anchor="middle">Flutter · Dart</text>
+
+    <rect x="332" y="250" width="114" height="32" rx="16" fill="#0D1526" stroke="#1E293B"/>
+    <text x="389" y="270" fill="#CBD5E1" text-anchor="middle">100% offline</text>
+
+    <rect x="456" y="250" width="58" height="32" rx="16" fill="#0D1526" stroke="#1E293B"/>
+    <text x="485" y="270" fill="#CBD5E1" text-anchor="middle">MIT</text>
+  </g>
+
+  <g class="mono" font-size="11.5">
+    <circle class="glow" cx="69" cy="322" r="4" fill="#34D399"/>
+    <text x="82" y="326" fill="#64748B">v1.7.0 released</text>
+    <text x="190" y="326" fill="#334155">·</text>
+    <text x="205" y="326" fill="#64748B">github.com/Salmankbdev/file-organizer-pro</text>
+  </g>
+
+  <!-- right: file sorting panel -->
+  <g>
+    <rect x="690" y="80" width="450" height="240" rx="16" fill="#080D18" fill-opacity="0.94"/>
+    <rect x="690.5" y="80.5" width="449" height="239" rx="15.5" stroke="url(#panelEdge)"/>
+
+    <!-- panel header -->
+    <path d="M690 96a16 16 0 0 1 16-16h418a16 16 0 0 1 16 16v26H690V96z" fill="#0D1526"/>
+    <line x1="690" y1="122" x2="1140" y2="122" stroke="#1E293B"/>
+    <circle cx="714" cy="101" r="4" fill="#F87171" fill-opacity="0.8"/>
+    <circle cx="731" cy="101" r="4" fill="#FBBF24" fill-opacity="0.8"/>
+    <circle cx="748" cy="101" r="4" fill="#34D399" fill-opacity="0.8"/>
+    <text x="714" y="118" class="mono" font-size="10" fill="#475569">~/Downloads</text>
+    <text x="1120" y="117" class="sans" font-size="10" fill="#64748B" text-anchor="end">PREVIEW</text>
+
+    <!-- rows -->
+    <g class="mono" font-size="12.5">
+      <!-- row 1 -->
+      <g>
+        <rect x="712" y="138" width="92" height="24" rx="6" fill="#052E2B"/>
+        <text x="722" y="154" fill="#5EEAD4">IMG_2043.jpg</text>
+        <text x="820" y="154" fill="#475569">→</text>
+        <text x="842" y="154" fill="#94A3B8">Images</text>
+        <circle cx="1108" cy="150" r="4" fill="#34D399"/>
+      </g>
+      <line x1="712" y1="172" x2="1118" y2="172" stroke="#111C2E"/>
+
+      <!-- row 2 -->
+      <g>
+        <rect x="712" y="178" width="78" height="24" rx="6" fill="#1E1B4B"/>
+        <text x="722" y="194" fill="#A5B4FC">invoice.pdf</text>
+        <text x="820" y="194" fill="#475569">→</text>
+        <text x="842" y="194" fill="#94A3B8">Documents</text>
+        <circle cx="1108" cy="190" r="4" fill="#818CF8"/>
+      </g>
+      <line x1="712" y1="212" x2="1118" y2="212" stroke="#111C2E"/>
+
+      <!-- row 3 -->
+      <g>
+        <rect x="712" y="218" width="72" height="24" rx="6" fill="#3B2A0A"/>
+        <text x="722" y="234" fill="#FCD34D">setup.zip</text>
+        <text x="820" y="234" fill="#475569">→</text>
+        <text x="842" y="234" fill="#94A3B8">Archives</text>
+        <circle cx="1108" cy="230" r="4" fill="#FBBF24"/>
+      </g>
+      <line x1="712" y1="252" x2="1118" y2="252" stroke="#111C2E"/>
+
+      <!-- row 4 -->
+      <g>
+        <rect x="712" y="258" width="70" height="24" rx="6" fill="#083344"/>
+        <text x="722" y="274" fill="#67E8F9">main.dart</text>
+        <text x="820" y="274" fill="#475569">→</text>
+        <text x="842" y="274" fill="#94A3B8">Code</text>
+        <circle cx="1108" cy="270" r="4" fill="#22D3EE"/>
+      </g>
+    </g>
+
+    <!-- footer -->
+    <line x1="690" y1="294" x2="1140" y2="294" stroke="#1E293B"/>
+    <circle class="glow" cx="714" cy="306" r="3.5" fill="#34D399"/>
+    <text x="726" y="310" class="sans" font-size="10.5" fill="#64748B">Nothing moves until you say so</text>
+    <g transform="translate(1082 300)">
+      <rect width="42" height="18" rx="9" fill="#052E2B"/>
+      <text x="21" y="12.5" class="mono" font-size="9" fill="#34D399" text-anchor="middle">UNDO</text>
+    </g>
+  </g>
+
+  <!-- accent frame -->
+  <rect x="0.5" y="0.5" width="1199" height="399" stroke="#94A3B8" stroke-opacity="0.1"/>
+</svg>
