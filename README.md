@@ -76,11 +76,10 @@ I also build client products with **[Nexora Tech](https://nexoratech.solutions)*
 | **[Treasure Quest Adventure](https://github.com/Salmankbdev/treasure-quest-adventure)** | `Lua` `Rojo` | A Roblox RPG with seven islands, character classes, weapon upgrades, bosses, and a full HUD. |
 | **[KeyboardSplitterNext](https://github.com/Salmankbdev/KeyboardSplitterNext)** | `Rust` `TypeScript` | Turns multiple physical keyboards into independent virtual Xbox 360 controllers on Windows.<br/><sub>Fork of E4crypt3d/KeyboardSplitterNext</sub> |
 
-## 📊 GitHub at a glance
+## 📊 Language mix
 
 <div align="center">
-  <img height="190" src="https://github-readme-stats.vercel.app/api?username=Salmankbdev&show_icons=true&hide_border=true&hide_rank=true&custom_title=GitHub%20Stats&bg_color=00000000&title_color=818CF8&icon_color=22D3EE&text_color=94A3B8&include_all_commits=true&cache_seconds=1800&v=2" alt="Salman's GitHub stats" />
-  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Salmankbdev&layout=compact&hide_border=true&bg_color=00000000&title_color=818CF8&text_color=94A3B8&langs_count=8&cache_seconds=1800&v=2" alt="Top languages" />
+  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Salmankbdev&layout=compact&hide_border=true&bg_color=00000000&title_color=818CF8&text_color=94A3B8&langs_count=8&cache_seconds=1800&v=2" alt="Most used languages across public repositories" />
 </div>
 
 ## 🤝 Let's build something
